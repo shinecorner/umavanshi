@@ -15,6 +15,7 @@ class AuthorizedUser
      */
     public function handle($request, Closure $next)
     {
+// bokda
         $isAuthenticate = $request->session()->get('isAuthenticate');                
         $role = $request->session()->get('role');
         if($isAuthenticate && $role == 'admin'){            
