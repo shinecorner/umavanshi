@@ -30,8 +30,6 @@ class WaxController extends Controller {
     }
 
     public function createLabour(Request $request) {
-	//this is test commit
-	//This is another commit 12
         $this->validate($request, [
             'name' => 'required',
         ]);
