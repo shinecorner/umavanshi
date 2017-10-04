@@ -10,7 +10,6 @@ use Validator;
 class HomeController extends Controller {
 
     public function showLogin(Request $request) {
-	// this is trial
         return view('admin.home.login');
     }
 
